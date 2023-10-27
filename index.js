@@ -16,4 +16,4 @@ app.get("/card/:id", (req, res)=>{
     console.log(dataFilter)
     res.send(dataFilter.slice(0,10))
 })
-app.listen(5000, ()=> console.log("activefrom the hell"))
+app.listen(5000, ()=> console.log("active from the hell"))
